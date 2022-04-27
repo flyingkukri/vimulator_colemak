@@ -1,7 +1,7 @@
 # Keybindings for the vi Modes
 
 # Structure:
-# vimulator.keys.MODE.ACTION=KEYBINDING
+# vimulator.keys.MODE.ACTION=EEYBINDING
 # where 
 #   - mode refers to either insert, command, visual or visual-block
 #   - action refers to an action (see jEdit.getActionNames())
@@ -32,7 +32,7 @@ vimulator.keys.command.vi-home-abs=0
 vimulator.keys.command.vi-home-abs.2=HOME
 vimulator.keys.command.vi-home-ws=^
 vimulator.keys.command.vi-end-abs=$
-vimulator.keys.command.prev-line=K
+vimulator.keys.command.prev-line=E
 vimulator.keys.command.prev-line.2=C+P
 vimulator.keys.command.prev-line.3=UP
 vimulator.keys.command.next-line=N
@@ -50,7 +50,7 @@ vimulator.keys.command.document-home=C+HOME
 vimulator.keys.command.prev-paragraph={
 vimulator.keys.command.next-paragraph=}
 vimulator.keys.command.vi-word-start=B
-vimulator.keys.command.vi-word-end=E
+vimulator.keys.command.vi-word-end=F
 vimulator.keys.command.vi-next-word=W
 vimulator.keys.command.delete=X
 vimulator.keys.command.backspace=S+X
@@ -77,8 +77,8 @@ vimulator.keys.command.vi-end-ex-command=ESCAPE
 vimulator.keys.command.vi-end-ex-command.2=C+C
 vimulator.keys.command.vi-search=/
 vimulator.keys.command.vi-reverse-search=?
-vimulator.keys.command.vi-repeat-search=K
-vimulator.keys.command.vi-repeat-search-opposite=S+K
+vimulator.keys.command.vi-repeat-search=E
+vimulator.keys.command.vi-repeat-search-opposite=S+E
 vimulator.keys.command.vi-find-char=F
 vimulator.keys.command.vi-find-char-reverse=S+F
 vimulator.keys.command.vi-find-until-char=T
@@ -108,7 +108,7 @@ vimulator.keys.command.vi-paste-before=S+P
 vimulator.keys.command.vi-paste-after=P
 
 # Deletion
-vimulator.keys.command.vi-delete-word-end=D E
+vimulator.keys.command.vi-delete-word-end=D F
 vimulator.keys.command.vi-delete-word-start=D B
 vimulator.keys.command.vi-delete-end-line=D $
 vimulator.keys.command.vi-delete-end-line.2=S+D
@@ -122,7 +122,7 @@ vimulator.keys.command.vi-delete-prev-line=D K
 vimulator.keys.command.vi-delete-next-char=D L
 
 # Changing
-vimulator.keys.command.vi-change-word-end=C E
+vimulator.keys.command.vi-change-word-end=C F
 vimulator.keys.command.vi-change-word-start=C B
 vimulator.keys.command.vi-change-end-line=C $
 vimulator.keys.command.vi-change-end-line.2=S+C
@@ -143,7 +143,7 @@ vimulator.keys.command.vi-yank-line=Y Y
 vimulator.keys.command.vi-yank-line.2=S+Y
 vimulator.keys.command.vi-yank-end-line=Y $
 vimulator.keys.command.vi-yank-start-line=Y 0
-vimulator.keys.command.vi-yank-word-end=Y E
+vimulator.keys.command.vi-yank-word-end=Y F
 vimulator.keys.command.vi-yank-word-start=Y B
 # TODO
 vimulator.keys.command.vi-yank-next-word=Y W
@@ -165,7 +165,7 @@ vimulator.keys.visual.select-next-line=N
 vimulator.keys.visual.select-next-line.2=DOWN
 vimulator.keys.visual.select-next-line.3=C+J
 vimulator.keys.visual.select-next-line.4=C+N
-vimulator.keys.visual.select-prev-line=K
+vimulator.keys.visual.select-prev-line=E
 vimulator.keys.visual.select-prev-line.2=UP
 vimulator.keys.visual.select-prev-line.3=C+P
 vimulator.keys.visual.vi-select-home-ws=^
@@ -181,7 +181,7 @@ vimulator.keys.visual.vi-select-prev-col.4=BACK_SPACE
 vimulator.keys.visual.vi-insert-mode=I
 vimulator.keys.visual.vi-multiline-insert=S+I
 vimulator.keys.visual.vi-multiline-append=S+A
-vimulator.keys.visual.vi-select-word-end=E
+vimulator.keys.visual.vi-select-word-end=F
 vimulator.keys.visual.vi-select-next-word=W
 vimulator.keys.visual.vi-select-word-start=B
 vimulator.keys.visual.shift-right=>
@@ -199,7 +199,7 @@ vimulator.keys.visual-block.vi-multiline-change=C
 # Visual line mode
 # TODO fix selection of last line
 vimulator.keys.visual-line.select-next-line=N
-vimulator.keys.visual-line.select-prev-line=K
+vimulator.keys.visual-line.select-prev-line=E
 vimulator.keys.visual-line.vi-multiline-change=C
 vimulator.keys.visual-line.skip=L
 vimulator.keys.visual-line.skip.2=H
