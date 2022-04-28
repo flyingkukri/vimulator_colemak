@@ -4,10 +4,10 @@
 	<property name="build.dir" value="build"/>
     <!-- can be bent to point at the Plugin jars directory instead -->
 	<!--<property name="install.dir"  value="/home/niels/.isabelle/Isabelle2021/jedit/jars/"/>-->
-	<property name="install.dir"  value="install"/>
+	<property name="install.dir"  value="/home/lukas/.isabelle/Isabelle2021-1/jedit/jars/"/>
 
     <!-- Replace this with the actual path, this is the installation path for the apt install -->
-	<property name="jedit.install.dir"  value="/usr/share/jEdit"/>
+	<property name="jedit.install.dir"  value="/nix/store/g6vfk55p2r1yd7dg321lnzm4z0shb96f-isabelle-2021-1/Isabelle2021-1/contrib/jedit-20211103/jedit5.6.0-patched"/>
 
 
 	<path id="project.class.path">
