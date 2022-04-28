@@ -1,3 +1,6 @@
+# Colemak
+I have tried to remap the keys according to [emacs evil colemak](https://github.com/wbolster/emacs-evil-colemak-basics)
+
 # Vimulator
 [![Build Status](https://app.travis-ci.com/nielstron/vimulator.svg?branch=master)](https://app.travis-ci.com/nielstron/vimulator)
 
